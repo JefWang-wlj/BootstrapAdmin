@@ -1,0 +1,39 @@
+body{background: #2E363F;font:14px/20px "微软雅黑",Arial, Helvetica, sans-serif;}
+.header{background: #1f262d;height: 70px;color: #999;}
+.header .logo{float: left;width: 15%;min-width:200px;height:70px;background: #1f262d url(../images/logo.jpg) no-repeat center;}
+.header .h-r{margin-right:50px;height: 40px;line-height: 40px;}
+.header .h-r span.adminame{margin-right: 10px;}
+.header .h-nav{background: #fff;height: 30px;line-height: 30px;}
+.header .h-nav .breadcrumb{padding:0;}
+.header .h-nav .breadcrumb span{margin: 0 5px;}
+
+.content{overflow: auto;}
+.cleft{width: 15%;color: #939da8;float: left;background: #2E363F;}
+.cleft ul{list-style: none;padding: 0;}
+.cleft ul li{border-top: 1px solid #37414b;
+border-bottom: 1px solid #1f262d;}
+.cleft ul li a{display: block;text-decoration: none;color: #939da8;padding: 10px 0 10px 15px;}
+.cleft ul li a.active{background:#27a9e3 url("../images/menu-active.png") no-repeat scroll right center;color: #fff;}
+.cleft ul li a:hover{background:#27a9e3;color: #fff;}
+.cleft ul li a span{margin-right: 10px;}
+.cleft ul li.son a{padding: 8px 0 8px 25px;font-size: 13px;margin-bottom: 1px;}
+.cleft ul li.son a:hover,.cleft ul li.son a.active{background: #28b779;}
+
+.cright{background:#fff;width: 85%;float: left;min-height: 800px;padding:8px;}
+
+.footer{color: #999;height: 50px;line-height: 50px; text-align: center;background: #1F262D;}
+
+.page{text-align: center;}
+form i{color: red;margin:0 5px; font-style: normal;}
+label.hd-label{padding:0;width: auto;font-weight: normal;}
+
+
+#loginbox {width: 32%;margin:0 auto;margin-top: 10%;min-width: 500px;}
+#loginbox .logo{margin: 0 auto;border-bottom: 1px solid #2E363F;}
+#loginbox .form-control{height: 40px;}
+#loginbox .input-group-addon{border:none;color: #fff;}
+#loginbox .verify{height: 40px;border-radius: 4px;}
+#loginbox .btn{padding-left: 30px;padding-right: 30px;}
+#loginbox p.submit{border-top: 1px solid #2E363F;padding-top: 20px;}
+#loginbox p.submit b{margin-left: 20px;}
+#loginbox .input-group{margin: 30px 0;}
